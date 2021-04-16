@@ -18,11 +18,11 @@ import "./index.css";
 // } from "@aws-amplify/ui-react";
 // Amplify.configure(awsconfig);
 
-import SignIn from "./pages/SignIn";
+
 // // import Navbar from "./components/Navbar/Navbar";
-import SignUp from "./pages/SignUp";
-import Questionnaire from "./pages/Questionnaire";
-import Profile from "./pages/Profile";
+
+
+
 import SearchFriends from "./pages/SearchFriends";
 // import SearchFriends from "./pages/SearchFriends";
 

@@ -79,7 +79,7 @@ export default function Questionnaire() {
     </div>
   );
 }
-
+module.exports = answers 
 // function Questionnaire() {
 //   return (
 //     <div>

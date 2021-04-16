@@ -2,8 +2,8 @@
 import React from "react";
 import SearchBar from "../components/SearchBar";
 import SearchResults from "../components/SearchResults";
-import ReactDOM from "react-dom";
-import Friendcard from "../components/FriendCard";
+// import ReactDOM from "react-dom";
+// import Friendcard from "../components/FriendCard";
 
 const users = [
   {

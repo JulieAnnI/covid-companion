@@ -9,7 +9,6 @@ function SearchResults({users}) {
           {users.map((user)=> 
           {return <FriendCard user = {user} />} 
           )}
-          {/* @todo loop to populate multiple friend cards with user data*/}
         </article>
       </main>
       ;
