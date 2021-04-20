@@ -4,7 +4,7 @@
 
 This is the final project for the UConn Coding Boot Camp.
 
-A React application that...
+Covid Companion is an an app that uses React, MongoDB, and AWS Amplify to share the most accurate information about each user and lets you share  the details of your Covid status . Each profile displays whether or not that person is Covid positive or negative, whether or not they’re  in  quarantine and,  if so, how long they’ve been in quarantine, whether or not they’ve been tested and, if so, the date of their last test, whether or not they’ve been vaccinated and, if so, which vaccine, and their exposure risk level based on a preexisting condition.
 
 ## Table of Contents
 
@@ -21,6 +21,34 @@ A React application that...
 - [Credits](#credits)
 - [Contributors](#contributors)
 - [License](#license)
+
+## Installation
+Visit our deployed application on Heroku (here)[https://covid-companion21.herokuapp.com/]
+If you would like to view the app locally following these steps:
+1. Fork this repo
+2. Download the repo to your local machine
+3. Cd into the folder containing the repo on your local machine
+4. Run command "npm install"
+5. Run command "npm start" to start app
+
+## Usage
+
+GIVEN I am an unregistered user and I am on the sign-up page
+WHEN I create an a new account 
+THEN I enter my personal information and answer COVID related questions and click create account.
+
+GIVEN I am a registered user and I am on the sign-in page
+WHEN I fill in the Username and Password with my valid account info and click the Sign-In button
+THEN the system signs me in and I am taken to my profile page.
+
+GIVEN I am a registered user who wants to update their Covid status
+WHEN I click the update button 
+THEN  I am taken to the questionnaire  and update my information.
+WHEN I click “Submit”
+THEN I am redirected to my profile  where my updated information is displayed.
+
+
+
 
 ## Technologies Used
 
@@ -146,7 +174,7 @@ A React application that...
 
 ### Presentation Requirements
 
-![COVID-Companion](google drive link)
+[COVID-Companion](google drive link)
 
 - Elevator pitch: a one minute description of your application
 
