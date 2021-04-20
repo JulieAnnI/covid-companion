@@ -21,33 +21,7 @@ import {
 } from "@aws-amplify/ui-react";
 import { AuthState, onAuthUIStateChange } from "@aws-amplify/ui-components";
 
-<<<<<<< HEAD
-
-// // import Navbar from "./components/Navbar/Navbar";
-
-
-
-// import SearchFriends from "./pages/SearchFriends";
-// import SearchFriends from "./pages/SearchFriends";
-
-// Original Code 4/10/2021 @audit-issue app.js
-// const App = () => {
-//   const handleClick = async () => {
-//     console.log("click");
-//     const results = await Auth.currentAuthenticatedUser();
-//     console.log(results.attributes.sub);
-//   };
-//   return (
-//     <div>
-//       <Navbar />
-//       <AmplifySignOut />
-//       My App <button onClick={handleClick}>Submit</button>
-//     </div>
-//   );
-// };
-=======
 Amplify.configure(awsconfig);
->>>>>>> 4dde7fd5ddace35644cf1e2c8990854808d4a0b4
 
 function App() {
   const history = useHistory();
